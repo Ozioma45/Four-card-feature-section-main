@@ -84,6 +84,15 @@ body {
   margin-left: auto;
   margin-top: auto;
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media screen and (max-width: 450px) {
   .card {
     max-width: 100%;
