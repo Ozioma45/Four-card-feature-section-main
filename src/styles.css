@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.header-cont h1 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.header-cont h2 {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.header-cont p {
+  color: hsl(229, 6%, 66%);
+  font-size: 0.8rem;
+}
+
+.pCont {
+  max-width: 35%;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.feature-section {
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  height: 200px;
+  text-align: start;
+  margin-top: 15px;
+  font-size: 0.7rem;
+}
+
+.card p {
+  font-weight: 600;
+  color: hsl(229, 6%, 66%);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card h1 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#Card1 {
+  border-top: hsl(180, 62%, 55%) 5px solid;
+}
+#Card2 {
+  border-top: hsl(0, 78%, 62%) 5px solid;
+}
+#Card3 {
+  border-top: hsl(34, 97%, 64%) 5px solid;
+}
+#Card4 {
+  border-top: hsl(212, 86%, 64%) 5px solid;
+}
+
+.card img {
+  width: 3rem; /* Set your desired width */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: auto;
+  margin-top: auto;
+}
+@media screen and (max-width: 450px) {
+  .card {
+    max-width: 100%;
+  }
+
+  .feature-section {
+    max-width: 100%;
+  }
+
+  .pCont {
+    max-width: 100%;
+  }
+}
